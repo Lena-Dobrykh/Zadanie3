@@ -11,6 +11,11 @@ class MyList(list):
         else:
             super().append(x)
 
+k=MyList([1,2,3,4,5,6,7,9,10])
+print(k)
+k.append(11)
+print(k)
 y=MyList([1,2,3,4,5,6,7,8,9,10])
-
-print(len(y))
+print(y)
+y.append(11)
+print(y)
